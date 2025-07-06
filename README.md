@@ -1,36 +1,170 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JJ Metal Works - Professional Metal Fabrication Website
 
-## Getting Started
+A modern, responsive website built with Next.js for JJ Metal Works, a professional metal fabrication company specializing in structural steel, HVAC ductwork, and custom metalwork solutions.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, professional design with beautiful animations and transitions
+- **Responsive**: Fully responsive design that works on all devices
+- **Fast Performance**: Built with Next.js for optimal performance and SEO
+- **Comprehensive Sections**:
+  - Hero section with compelling call-to-action
+  - Services showcase with detailed descriptions
+  - Company information (Vision, Mission, Values)
+  - Project portfolio with case studies
+  - Production capacity statistics
+  - Contact forms and information
+  - Professional navigation and footer
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15.3.5
+- **Styling**: TailwindCSS v4
+- **Language**: TypeScript
+- **Icons**: Heroicons (SVG)
+- **Fonts**: Geist Sans & Geist Mono
+
+## 📋 Prerequisites
+
+- Node.js 18+
+- npm or yarn package manager
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/your-username/jj-metal-works.git
+   cd jj-metal-works
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to see the website.
+
+## 📁 Project Structure
+
+```
+jj-metal-works/
+├── src/
+│   └── app/
+│       ├── components/          # Reusable React components
+│       │   ├── Navigation.tsx   # Header navigation
+│       │   ├── Footer.tsx       # Footer component
+│       │   ├── Hero.tsx         # Hero section
+│       │   ├── Services.tsx     # Services showcase
+│       │   ├── About.tsx        # About company section
+│       │   ├── Statistics.tsx   # Production capacity stats
+│       │   ├── Projects.tsx     # Project portfolio
+│       │   └── Contact.tsx      # Contact form and info
+│       ├── about/              # About page
+│       ├── services/           # Services page
+│       ├── projects/           # Projects page
+│       ├── contact/            # Contact page
+│       ├── globals.css         # Global styles and utilities
+│       ├── layout.tsx          # Root layout
+│       └── page.tsx            # Homepage
+├── public/                     # Static assets
+├── package.json
+├── tailwind.config.js
+├── tsconfig.json
+└── next.config.js
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Customization
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Colors and Branding
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The website uses a blue and gray color scheme. To customize:
 
-## Learn More
+1. **Primary Colors**: Modify the blue color variants in `globals.css`
+2. **Logo**: Update the logo in `Navigation.tsx` and `Footer.tsx`
+3. **Company Information**: Update contact details, addresses, and company info throughout the components
 
-To learn more about Next.js, take a look at the following resources:
+### Content Updates
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Services**: Modify the services array in `Services.tsx`
+- **Projects**: Update the projects data in `Projects.tsx`
+- **Statistics**: Change the production capacity numbers in `Statistics.tsx`
+- **Contact Information**: Update phone numbers, emails, and addresses in contact components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Deployment
 
-## Deploy on Vercel
+### Vercel (Recommended)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push your code to GitHub
+2. Connect your repository to [Vercel](https://vercel.com)
+3. Deploy with zero configuration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Other Platforms
+
+```bash
+# Build the application
+npm run build
+
+# Start the production server
+npm start
+```
+
+## 📱 Pages Overview
+
+- **Homepage (`/`)**: Full showcase with hero, services, about, statistics, projects, and contact
+- **About (`/about`)**: Detailed company information, history, and certifications
+- **Services (`/services`)**: Comprehensive service descriptions and process overview
+- **Projects (`/projects`)**: Project portfolio with detailed case studies
+- **Contact (`/contact`)**: Contact forms, location info, and department contacts
+
+## 🎯 Business Features
+
+- **Lead Generation**: Multiple contact forms and call-to-action buttons
+- **Professional Credibility**: Certifications, statistics, and project showcases
+- **SEO Optimized**: Proper meta tags, headings, and semantic HTML
+- **Mobile-First**: Responsive design for all device sizes
+- **Fast Loading**: Optimized images and efficient code structure
+
+## 🔧 Development Commands
+
+```bash
+# Development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Lint code
+npm run lint
+```
+
+## 📞 Contact Information
+
+For questions about this website or JJ Metal Works services:
+
+- **Phone**: +1 (555) 123-4567
+- **Email**: info@jjmetalworks.com
+- **Website**: [Your Domain Here]
+
+## 📄 License
+
+This project is proprietary software created for JJ Metal Works.
+
+---
+
+**Built with ❤️ for JJ Metal Works - Professional Metal Fabrication & Engineering**

@@ -12,7 +12,7 @@ export default function ContactPage() {
                             <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
                             <p className="text-xl text-slate-600 max-w-3xl mb-8">
                                 Get in touch with our team for expert metal fabrication solutions.
-                                We're here to help bring your project to life.
+                                We&apos;re here to help bring your project to life.
                             </p>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="bg-white p-6 rounded-lg border border-slate-200">
@@ -125,7 +125,7 @@ export default function ContactPage() {
                     <div className="max-w-3xl mx-auto">
                         <h2 className="text-4xl font-bold mb-6">Emergency Services Available</h2>
                         <p className="text-xl text-slate-200 mb-8">
-                            We understand that some projects can't wait. Our emergency response team is available 24/7
+                            We understand that some projects can&apos;t wait. Our emergency response team is available 24/7
                             for critical repairs and urgent fabrication needs.
                         </p>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
